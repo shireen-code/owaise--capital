@@ -26,6 +26,15 @@
           slidesToShow: 3,
           rtl: true,
           responsive: [
+          {
+              breakpoint: 1024,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: "40px",
+                slidesToShow: 2,
+              },
+            },
             {
               breakpoint: 768,
               settings: {
@@ -1297,7 +1306,7 @@
     <section class="help__invest__sec">
       <div class="container">
         <div class="row space">
-          <div class="col-md-3">
+          <div class="col-md-6 col-sm-6 col-lg-3">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">استثمر</h5>
@@ -1310,7 +1319,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-6 col-sm-6 col-lg-3">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">اضف فرصتك الاستثمارية</h5>
