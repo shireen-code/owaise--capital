@@ -16,17 +16,18 @@
   --text-space-font-md: 25px;
 }
 
-body {
-  overflow-x: hidden;
-  background: #f5f7f9;
-  font-family: "Effra-Regular";
-}
+
 
 /*****************************************
 *  --------------------------------------*
 *  General                               *
 *  --------------------------------------*
 *****************************************/
+body {
+  overflow-x: hidden;
+  background: #f5f7f9;
+  font-family: "Effra-Regular";
+}
 h1,
 h2,
 h3,
