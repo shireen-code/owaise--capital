@@ -242,7 +242,7 @@ header .navbar-collapse {
   position: relative;
 }
 .investment__sec--search .form-group i {
-  color: var(--white);
+  color: #c3cdd6;
   font-size: 28px;
   right: -71px;
   position: relative;
