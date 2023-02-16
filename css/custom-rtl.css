@@ -674,9 +674,93 @@ html .padd-left-zero {
   color: #9ca6af;
   font-weight: 500;
 }
+/* 2340x1080 pixels at 476ppi */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      .help__invest__sec .card-body::before {
+        content: "";
+        background: transparent;
+      }
+      .help__invest__sec .card-body::after{
+        content: "";
+        background: transparent;
+      }
+      header {
+        position: relative;
+        background: #616161;
+      }
+      .investment__sec--search .form-control {
+        width: 100%;
+      }
+      .investment__sec--heading h2 {
+        font-size: 27px;
+      }
+      .crowdFunding__sec h2 {
+        font-size: 27px;
+      }
+      .crowdFunding__sec p {
+        font-size: 20px;
+        width: 100%;
+      }
+      p {
+    
+        font-size: 20px;
+      }
+      .investment_sec--tabs .investment_sec--tab-content .investment_sec--tab-relative {
+        display: inline-block;
+      }
+      .investment_sec--tabs .investment_sec--tab-content .investment_sec--tab-relative img {
+        margin-top: 0;
+      }
+      .help__sec h2 {
+        font-size: 27px;
+      }
+      .help__sec .help__sec--info--icon{
+       display: none;
+      }
+      .help__sec--info--img{
+        display: none;
+      }
+      .help__sec--slider h2 {
+        text-align: center;
+        font-size: 27px;
+      }
+      .news__Sec .card {
+        width: 100%;
+        margin-bottom: 1em;
+      }
+      .help__sec .card{
+        margin-bottom: 1em;
+      }
+      .help__sec.easy--sec .help__sec--heading {
+        margin-bottom: 2em;
+      }
+      .help__invest__sec .card{
+        margin-bottom: 1em;
+      } 
+      .capital__sec p {
+        font-size: 27px;
+        line-height: 46px;
+    
+        text-align: center;
+      }
+      .risk__sec--heading h2 {
+        font-size: 27px;
+      }
+      .risk_sec p {
+        font-size: 20px;
+        text-align: center;
+      }
+      header .navbar-toggler .navbar-toggler-icon {
+      width: 50px;
+      height: 50px;
+      }
+    }
+     
 
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 813px) {
   .help__invest__sec .card-body::before {
     content: "";
     background: transparent;
