@@ -95,6 +95,7 @@ header {
 }
 header .main-nav__navbar .navbar-nav > li {
   position: relative;
+  margin-right: 16px;
 }
 header .main-nav__navbar .navbar-nav > li > a {
   font-size: 23px;
@@ -138,7 +139,7 @@ header .main-nav__left .main-nav__left__nav-item .main-nav__left__item {
   color: var(--white);
 }
 header .main-nav__left .main-nav__left__nav-item .main-nav__left__sign-in {
-  padding: 7px 33px;
+  padding: 7px 26px;
   font-weight: 500;
   background-color: transparent;
   border: 3px solid var(--white);
@@ -212,8 +213,8 @@ header .navbar-collapse {
   text-align: center;
   font-size: 45px;
   font-weight: 600;
-  padding: 23px;
-  border-radius: 37px;
+  padding: 20px 36px;
+  border-radius: 33px;
   background: rgba(194, 205, 213, 0.2);
   color: #03989e;
   margin-bottom: 0.5em;
