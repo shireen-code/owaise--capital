@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Effra-Regular";
-  src: url("../fonts/Effra\ Regular.ttf") format("opentype");
+  src: url("../fonts/alfont_com_AlFont_com_Effra_Rg.ttf") format("opentype");
 }
 
 @charset "utf-8";
@@ -522,16 +522,16 @@ html .padd-left-zero {
   text-align: center;
 }
 .help__invest__sec .card-body::before {
-  content: "";
-  width: 20px;
-  height: 98%;
-  position: absolute;
-  display: block;
-  width: 10px;
-  background: #616161;
-  bottom: 0;
-  right: -11px;
-  margin: auto;
+ content: "";
+width: 20px;
+height: 98%;
+position: absolute;
+display: block;
+width: 8px;
+background: #616161;
+bottom: 0;
+right: -9px;
+margin: auto;
 }
 .help__invest__sec .card-body::after {
   content: "";
