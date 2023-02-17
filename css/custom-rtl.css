@@ -679,6 +679,10 @@ html .padd-left-zero {
     and (device-width: 375px) 
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) {
+      .news__Sec .primary-theme-btn{
+        display: block;
+        margin: auto;
+      }
       .help__invest__sec .card-body::before {
         content: "";
         background: transparent;
@@ -686,6 +690,9 @@ html .padd-left-zero {
       .help__invest__sec .card-body::after{
         content: "";
         background: transparent;
+      }
+      .help__sec .card {
+        width: 100%;
       }
       header {
         position: relative;
