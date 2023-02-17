@@ -775,6 +775,9 @@ html .padd-left-zero {
     content: "";
     background: transparent;
   }
+  .help__sec.easy--sec .row{
+justify-content: center;
+  }
   .help__invest__sec .card-body::after{
     content: "";
     background: transparent;
