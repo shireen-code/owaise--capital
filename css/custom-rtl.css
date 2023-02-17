@@ -241,11 +241,16 @@ header .navbar-collapse {
   margin-bottom: 20px;
   position: relative;
 }
+.investment__sec--search .form-group{
+  position: relative;
+}
 .investment__sec--search .form-group i {
   color: #c3cdd6;
   font-size: 28px;
-  right: -71px;
-  position: relative;
+  right: 56%;
+  position: absolute;
+  left: 0;
+  top: 27%;
 }
 .investment_sec--tabs .nav-tabs {
   padding: 0;
