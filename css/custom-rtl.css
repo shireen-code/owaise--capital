@@ -396,8 +396,6 @@ header .navbar-collapse {
   -webkit-transform: translateX(-50%);
   top: 50%;
 }
-.investment_sect-title::after {
-}
 
 html .padd-left-zero {
   padding-left: 0;
@@ -456,25 +454,8 @@ html .padd-left-zero {
   position: relative;
   margin-bottom: 1em;
 }
-.help__sec--info--img {
-  position: absolute;
-  top: -21px;
-  left: 0;
-  right: 159px;
-  margin: auto;
-  z-index: 1;
-}
-.help__sec .help__sec--info--icon {
-  background: #03989e;
-  height: 180px;
-  width: 180px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  border-radius: 23px;
-  transform: rotate(-55deg);
-  position: relative;
-  top: -59px;
+.help__sec .card-body{
+  padding-top: 0;
 }
 .help__sec .card::after {
   content: "";
@@ -489,7 +470,23 @@ html .padd-left-zero {
   right: 0;
   margin: auto;
 }
+.help__sec--info--icon {
+  background: #03989e;
+  height: 160px;
+  width: 160px;
+  position: relative;
+  border-radius: 23px;
+  transform: rotate(46deg);
+  margin: auto;
+  top: -60px;
+}
 
+.help__sec--info--icon-img{
+  position: absolute;
+  top: 13%;
+  left: 59%;
+  transform: rotate(-50deg) translate(-50%, -50%);
+}
 .help__sec .card-title {
   font-size: 30px;
   color: #77838f;
@@ -928,4 +925,7 @@ footer .widget li a {
 
 footer ul li a:hover {
   color: #616161;
+}
+.slick-slider {
+  height: 700px; /* Set the height to whatever value you want */
 }
