@@ -18,50 +18,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       rel="stylesheet"
     />
-    <script type="text/javascript">
-      $(document).on("ready", function () {
-        $(".regular").slick({
-          centerMode: true,
-          centerPadding: '100px',
-          slidesToShow: 3,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          rtl: true,
-          responsive: [
-          {
-              breakpoint: 1024,
-              settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: "40px",
-                slidesToShow: 2,
-              },
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: "40px",
-                slidesToShow: 1,
-              },
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: "40px",
-                slidesToShow: 1,
-              },
-            },
-          ],
-        });
-      });
-    </script>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    rel="stylesheet"
+  />
+
   </head>
 
-  
   <body>
     <!-- Header Start -->
     <header>
@@ -79,19 +42,16 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-              <span class="navbar-toggler-icon">
-                <img
-                  alt="logo-img"
-                  src="images/hamburger.png"
-                  class="img-fluid"
-              /></span>
+                <span class="navbar-toggler-icon">
+                  <img
+                    alt="logo-img"
+                    src="images/hamburger.png"
+                    class="img-fluid"
+                /></span>
               </button>
               <div class="main-nav__logo">
                 <a href="#">
-                  <img
-                    alt="logo-img"
-                    src="images/logo.png"
-                    class="img-fluid"
+                  <img alt="logo-img" src="images/logo.png" class="img-fluid"
                 /></a>
               </div>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -207,20 +167,18 @@
         </div>
       </div>
     </section>
-    <section class="investment__sec">
+    <section class="investment__sec  wow  fadeIn">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
             <div class="investment__sec--heading">
               <h2>الفرص الإستثمارية</h2>
-
             </div>
             <p class="nvestment__sec--para">
               من خلال منصة أويس المالية ، يمكن للمستثمرين استعراض الفرص
               الاستثمارية ، الاستثمار ، وانهاء الاجراءات القانونية عبر المنصة
               فوراً. استثمر الآن ابتداءً من 1000 ريال سعودي فقط . الشركات
-              المدرجة على المنصة هي شركات تمت مراجعة معلوماتها والتأكد من
-              صحتها
+              المدرجة على المنصة هي شركات تمت مراجعة معلوماتها والتأكد من صحتها
             </p>
             <div class="investment__sec--search">
               <div class="form-group">
@@ -544,7 +502,6 @@
                                   class="fa fa-bookmark"
                                   aria-hidden="true"
                                 ></i>
-                              
                               </div>
                               <h5>صندوق الماجدية</h5>
                               <p>
@@ -1164,7 +1121,7 @@
     </section>
     <section class="crowdFunding__sec">
       <div class="container">
-        <div class="row">
+        <div class="row wow fadeIn">
           <h2>كيف يساعد اصدار الصكوك الشركات الصغيرة والمتوسطة</h2>
           <p>
             من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول إلى
@@ -1176,112 +1133,120 @@
         </div>
       </div>
     </section>
-    <section class="help__sec easy--sec">
+    <section class="help__sec easy--sec wow fadeIn">
       <div class="container">
         <div class="help__sec--heading">
           <h2>كيف يساعد اصدار الصكوك الشركات الصغيرة والمتوسطة</h2>
         </div>
         <div class="row space" style="margin-bottom: 130px">
-            <div class="card">
-              <div class="help__sec--info--icon">
-                <div class="help__sec--info--icon-img">
-                  <img src="images/easy.png" class="img-responsive" alt="" />
-                </div>
-              </div>
-            
-              <div class="card-body">
-                <h5 class="card-title">البساطه</h5>
-                <p class="card-text">
-                  من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول
-                  إلى الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
-                  الاستثمارية الخاصة بشركتك الناشئة.
-                </p>
-                -
+          <div class="card">
+            <div class="help__sec--info--icon">
+              <div class="help__sec--info--icon-img">
+                <img src="images/easy.png" class="img-responsive" alt="" />
               </div>
             </div>
-            <div class="card">
-              <div class="help__sec--info--icon">
-                <div class="help__sec--info--icon-img">
-                  <img src="images/research.png" class="img-responsive" alt="" />
-                </div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">التحقق من الجدوى</h5>
-                <p class="card-text">
-                  من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول
-                  إلى الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
-                  الاستثمارية الخاصة بشركتك الناشئة.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="help__sec--info--icon">
-                <div class="help__sec--info--icon-img">
-                  <img  src="images/investment.png"class="img-responsive" alt="" />
-                </div>
-              </div>
 
-              <div class="card-body">
-                <h5 class="card-title">الوصول إلى المستثمرين</h5>
-                <p class="card-text">
-                  من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول
-                  إلى الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
-                  الاستثمارية الخاصة بشركتك الناشئة.
-                </p>
-              </div>
-            </div>
-        </div>
-        <div class="row space">
-            <div class="card">
-              <div class="help__sec--info--icon">
-                <div class="help__sec--info--icon-img">
-                  <img src="images/spin-drum.png" class="img-responsive" alt="" />
-                </div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">البساطه</h5>
-                <p class="card-text">
-                  من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول
-                  إلى الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
-                  الاستثمارية الخاصة بشركتك الناشئة.
-                </p>
-                -
-              </div>
-            </div>
-            <div class="card">
-              <div class="help__sec--info--icon">
-                <div class="help__sec--info--icon-img">
-                  <img src="images/user.png" class="img-responsive" alt="" />
-                </div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">التحقق من الجدوى</h5>
-                <p class="card-text">
-                  من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول
-                  إلى الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
-                  الاستثمارية الخاصة بشركتك الناشئة.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="help__sec--info--icon">
-                <div class="help__sec--info--icon-img">
-                  <img  src="images/rocke--icon.png" class="img-responsive" alt="" />
-                </div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">الوصول إلى المستثمرين</h5>
-                <p class="card-text">
-                  من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول
-                  إلى الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
-                  الاستثمارية الخاصة بشركتك الناشئة.
-                </p>
-              </div>
+            <div class="card-body">
+              <h5 class="card-title">البساطه</h5>
+              <p class="card-text">
+                من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول إلى
+                الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
+                الاستثمارية الخاصة بشركتك الناشئة.
+              </p>
+              -
             </div>
           </div>
+          <div class="card">
+            <div class="help__sec--info--icon">
+              <div class="help__sec--info--icon-img">
+                <img src="images/research.png" class="img-responsive" alt="" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">التحقق من الجدوى</h5>
+              <p class="card-text">
+                من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول إلى
+                الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
+                الاستثمارية الخاصة بشركتك الناشئة.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="help__sec--info--icon">
+              <div class="help__sec--info--icon-img">
+                <img
+                  src="images/investment.png"
+                  class="img-responsive"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">الوصول إلى المستثمرين</h5>
+              <p class="card-text">
+                من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول إلى
+                الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
+                الاستثمارية الخاصة بشركتك الناشئة.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row space">
+          <div class="card">
+            <div class="help__sec--info--icon">
+              <div class="help__sec--info--icon-img">
+                <img src="images/spin-drum.png" class="img-responsive" alt="" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">البساطه</h5>
+              <p class="card-text">
+                من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول إلى
+                الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
+                الاستثمارية الخاصة بشركتك الناشئة.
+              </p>
+              -
+            </div>
+          </div>
+          <div class="card">
+            <div class="help__sec--info--icon">
+              <div class="help__sec--info--icon-img">
+                <img src="images/user.png" class="img-responsive" alt="" />
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">التحقق من الجدوى</h5>
+              <p class="card-text">
+                من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول إلى
+                الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
+                الاستثمارية الخاصة بشركتك الناشئة.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="help__sec--info--icon">
+              <div class="help__sec--info--icon-img">
+                <img
+                  src="images/rocke--icon.png"
+                  class="img-responsive"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">الوصول إلى المستثمرين</h5>
+              <p class="card-text">
+                من خلال عرض شركتك عبر التمويل الجماعي ، سيكون بإمكانك الوصول إلى
+                الآلاف من المستثمرين المستعدين للاستثمار وتسريع الجولة
+                الاستثمارية الخاصة بشركتك الناشئة.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="help__invest__sec">
+    <section class="help__invest__sec wow fadeIn">
       <div class="container">
         <div class="row space">
           <div class="col-md-6 col-sm-6 col-lg-3">
@@ -1320,7 +1285,7 @@
         <div class="help__sec--item">
           <div class="card">
             <div class="card-body">
-                <img src="images/CNBC.png" />
+              <img src="images/CNBC.png" />
               <h5>فوربس الشرق الأوسط</h5>
               <p>
                 شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
@@ -1332,135 +1297,135 @@
           </div>
         </div>
         <div class="help__sec--item">
-            <div class="card">
-              <div class="card-body">
-                  <img src="images/Oval-forbes.png" />
-                <h5>فوربس الشرق الأوسط</h5>
-                <p>
-                  شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
-                  ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
-                  قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
-                  القادمة.
-                </p>
-              </div>
+          <div class="card">
+            <div class="card-body">
+              <img src="images/Oval-forbes.png" />
+              <h5>فوربس الشرق الأوسط</h5>
+              <p>
+                شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
+                ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
+                قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
+                القادمة.
+              </p>
             </div>
           </div>
-          <div class="help__sec--item">
-            <div class="card">
-              <div class="card-body">
-                  <img src="images/Oval-cnn.png" />
-                <h5>فوربس الشرق الأوسط</h5>
-                <p>
-                  شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
-                  ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
-                  قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
-                  القادمة.
-                </p>
-              </div>
+        </div>
+        <div class="help__sec--item">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/Oval-cnn.png" />
+              <h5>فوربس الشرق الأوسط</h5>
+              <p>
+                شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
+                ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
+                قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
+                القادمة.
+              </p>
             </div>
           </div>
-          <div class="help__sec--item">
-            <div class="card">
-              <div class="card-body">
-                <img src="images/Oval-cnn.png" />
-                <h5>فوربس الشرق الأوسط</h5>
-                <p>
-                  شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
-                  ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
-                  قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
-                  القادمة.
-                </p>
-              </div>
+        </div>
+        <div class="help__sec--item">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/Oval-cnn.png" />
+              <h5>فوربس الشرق الأوسط</h5>
+              <p>
+                شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
+                ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
+                قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
+                القادمة.
+              </p>
             </div>
           </div>
-          <div class="help__sec--item">
-            <div class="card">
-              <div class="card-body">
-                <img src="images/Oval-cnn.png" />
-                <h5>فوربس الشرق الأوسط</h5>
-                <p>
-                  شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
-                  ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
-                  قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
-                  القادمة.
-                </p>
-              </div>
+        </div>
+        <div class="help__sec--item">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/Oval-cnn.png" />
+              <h5>فوربس الشرق الأوسط</h5>
+              <p>
+                شركة سيركليز ترفع قيمتها بعد حصولها على استثمار بقيمة 5 مليون
+                ريال من منصة سكوبير المالية. كبراء المستثمرين يتوقعون زيادة في
+                قيمة الشركة حتى وصولها الى 100 مليون ريال سعودي خلال الأشهر
+                القادمة.
+              </p>
             </div>
           </div>
-      </div>
-    </section>
-    <section class="help__sec news__Sec">
-      <div class="container-fluid">
-        <div class="help__sec--heading">
-            <h2>العالم يتكلم عن أويس المالية</h2>
-          </div>
-        <div class="row space">
-            <div class="card">
-              <div class="help__sec--info">
-                <img src="images/argaam.png" class="img-fluid" alt="" />
-              </div>
-              <div class="card-body">
-                <p class="card-text">
-                  رئيس "سكوبير" لـ"أرقام": تدشين منصة التمويل الجماعي بالسعودية
-                  بداية سبتمبر القادم
-                </p>
-                <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
-            </div>
-          </div>
-            <div class="card">
-              <div class="help__sec--info">
-                <img src="images/CNBC.png" class="img-fluid" alt="" />
-              </div>
-              <div class="card-body">
-                <p class="card-text">
-                  التمويل الجماعي وتأثيره على نمو الشركات الناشئة - لقاء CNBC
-                  العربية
-                </p>
-                <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="help__sec--info">
-                <img src="images/alarabiya.png" class="img-fluid" alt="" />
-              </div>
-              <div class="card-body">
-                <p class="card-text">
-                  السعودية.. أول منصة إلكترونية لتمويل الملكية الجماعية
-                </p>
-                <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
-              </div>
-          </div>
-            <div class="card">
-              <div class="help__sec--info">
-                <img src="images/alarabiya.png" class="img-fluid" alt="" />
-              </div>
-              <div class="card-body">
-                <p class="card-text">
-                  السعودية.. أول منصة إلكترونية لتمويل الملكية الجماعية
-                </p>
-                <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
-              </div>
-          </div>
-            <div class="card">
-              <div class="help__sec--info">
-                <img src="images/forbes.png" class="img-fluid" alt="" />
-              </div>
-              <div class="card-body">
-                <p class="card-text">
-                  السعودية.. أول منصة إلكترونية لتمويل الملكية الجماعية
-                </p>
-                <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
-              </div>
-            </div>
         </div>
       </div>
     </section>
-    <section class="capital__sec">
+    <section class="help__sec news__Sec wow fadeIn">
+      <div class="container-fluid">
+        <div class="help__sec--heading">
+          <h2>العالم يتكلم عن أويس المالية</h2>
+        </div>
+        <div class="row space">
+          <div class="card">
+            <div class="help__sec--info">
+              <img src="images/argaam.png" class="img-fluid" alt="" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                رئيس "سكوبير" لـ"أرقام": تدشين منصة التمويل الجماعي بالسعودية
+                بداية سبتمبر القادم
+              </p>
+              <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="help__sec--info">
+              <img src="images/CNBC.png" class="img-fluid" alt="" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                التمويل الجماعي وتأثيره على نمو الشركات الناشئة - لقاء CNBC
+                العربية
+              </p>
+              <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="help__sec--info">
+              <img src="images/alarabiya.png" class="img-fluid" alt="" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                السعودية.. أول منصة إلكترونية لتمويل الملكية الجماعية
+              </p>
+              <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="help__sec--info">
+              <img src="images/alarabiya.png" class="img-fluid" alt="" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                السعودية.. أول منصة إلكترونية لتمويل الملكية الجماعية
+              </p>
+              <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="help__sec--info">
+              <img src="images/forbes.png" class="img-fluid" alt="" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                السعودية.. أول منصة إلكترونية لتمويل الملكية الجماعية
+              </p>
+              <a href="#" class="primary-theme-btn"> إظهار الاستثمارات </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="capital__sec wow fadeIn">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <div class="capital--img">
-                <img
+              <img
                 src="images/Capital-Market-Authority-01.png"
                 class="img-fluid"
                 alt="Capital-Market-Authority"
@@ -1478,7 +1443,7 @@
         </div>
       </div>
     </section>
-    <section class="risk_sec">
+    <section class="risk_sec wow fadeIn">
       <div class="container-fluid">
         <div class="row">
           <div class="risk__sec--heading">
@@ -1519,7 +1484,7 @@
     <footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-12 col-sm-4 widget">
+          <div class="col-xs-12 col-sm-4 widget wow fadeIn">
             <ul>
               <h5>آويس المالية تعطيك فرصة</h5>
               <li><a href="#"> حول آويس المالية</a></li>
@@ -1527,58 +1492,62 @@
               <li><a href="#"> شركاؤنا </a></li>
               <li><a href="#">تواصل معنا</a></li>
             </ul>
-                   <h5>آويس المالية تعطيك فرصة</h5>
+            <h5>آويس المالية تعطيك فرصة</h5>
             <ul>
               <li><a href="#"> استثمارات ممولة بنجاح</a></li>
               <li><a href="#">أسئلة رواد الأعمال الشائعة </a></li>
             </ul>
           </div>
 
-          <div class="col-xs-12 col-sm-3 widget">
+          <div class="col-xs-12 col-sm-3 widget wow fadeIn">
             <h5>اصدار الصكوك</h5>
-              <ul>
-                <li><a  href="#"> رسوم اصدار الصكوك</a></li>
-                <li><a  href="#"> الوظائف </a></li>
-                <li><a  href="#"> رسوم الوكالة</a></li>
-                <li><a  href="#">إرشادات اصدار ادوات الدين</a></li>
-              </ul>
-                     <h5>آويس المالية تعطيك فرصة</h5>
-              <ul>
-                <li><a  href="#"> شروط اصدر الصكوك</a></li>
-                <li><a  href="#">شروط رسوم الوكالة</a></li>
-              </ul>
-
+            <ul>
+              <li><a href="#"> رسوم اصدار الصكوك</a></li>
+              <li><a href="#"> الوظائف </a></li>
+              <li><a href="#"> رسوم الوكالة</a></li>
+              <li><a href="#">إرشادات اصدار ادوات الدين</a></li>
+            </ul>
+            <h5>آويس المالية تعطيك فرصة</h5>
+            <ul>
+              <li><a href="#"> شروط اصدر الصكوك</a></li>
+              <li><a href="#">شروط رسوم الوكالة</a></li>
+            </ul>
           </div>
 
-          <div class="col-xs-12 col-sm-2 widget">
-               <h5>المستثمرين</h5>
-                  <ul>
-                           <li><a href="press.html">البدء</a></li>
-                  </ul>
-                </div>
+          <div class="col-xs-12 col-sm-2 widget wow fadeIn">
+            <h5>المستثمرين</h5>
+            <ul>
+              <li><a href="press.html">البدء</a></li>
+            </ul>
+          </div>
 
-                <div class="col-md-3 col-sm-2">
-                  <div class=" widget-listed ">
-                    <div class="main-nav__logo">
-                      <a href="#">
-                        <img
-                          alt="logo-img"
-                          src="images/logo.png"
-                          class="img-fluid"
-                      /></a>
-                    </div>
-                    <h5> تعطيك فرصة</h5>
-    
-                    <div class="footer-social-icons"> 
-                      <ul>
-                        <li> <a href="#"><i class="fa fa-twitter"></i> </a></li>
-                        <li> <a href="#"><i class="fa fa-linkedin"></i> </a></li>
-                        <li> <a href="#"><i class="fa fa-facebook"></i> </a></li>
-                        <li> <a href="#"><i class="fa fa-instagram"></i> </a></li>
-                      </ul>
-                  </div>
-                  </div>
-                </div>
+          <div class="col-md-3 col-sm-2">
+            <div class="widget-listed">
+              <div class="main-nav__logo">
+                <a href="#">
+                  <img alt="logo-img" src="images/logo.png" class="img-fluid"
+                /></a>
+              </div>
+              <h5>تعطيك فرصة</h5>
+
+              <div class="footer-social-icons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-instagram"></i> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -1591,24 +1560,56 @@
   <script src="js/bootstrap.min.js"></script>
   <script
     type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+  ></script>
+  <script
+    type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
   ></script>
   <script
     type="text/javascript"
     src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"
   ></script>
-  <script>
-    $(".slick-slider").slick({
-      slidesToShow: 3,
-      infinite: false,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      // dots: false, Boolean
-      // arrows: false, Boolean
+  <script type="text/javascript">
+    $(document).on("ready", function () {
+      $(".regular").slick({
+        centerMode: true,
+        centerPadding: "100px",
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        rtl: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
     });
-
-    // Image Slider Demo:
-    // https://codepen.io/vone8/pen/gOajmOo
+    new WOW().init();
   </script>
 </html>
