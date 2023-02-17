@@ -448,6 +448,8 @@ html .padd-left-zero {
 .help__sec .card {
   width: 26em;
   border-radius: 27px;
+  position: relative;
+  margin-bottom: 1em;
 }
 .help__sec--info--img {
   position: absolute;
